@@ -16,5 +16,4 @@ app.use(head)
 app.use(router)
 app.mount('#app')
 
-// Set Release Version.
-;(window as any).version = __VERSION__
+app.provide('version', __VERSION__)
