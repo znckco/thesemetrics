@@ -1,0 +1,61 @@
+export const frameworks = [
+  {
+    value: 'html',
+    title: 'HTML',
+    instructions: ['<script ', '  async', '  src="https://unpkg.com/thesemetrics@latest"', '></script>'].join('\n'),
+  },
+  {
+    value: 'nuxt',
+    title: 'Nuxt.js',
+    instructions: [
+      '// Add to nuxt.config.js',
+      '',
+      'export default {',
+      '  head: {',
+      '    script: [',
+      '      { ',
+      '         hid: "thesemetrics",',
+      '         src: "https://unpkg.com/thesemetrics@latest",',
+      '         async: true,',
+      '         type: "text/javascript",',
+      '      },',
+      '    ],',
+      '  },',
+      '}',
+    ].join('\n'),
+  },
+  {
+    value: 'next',
+    title: 'Next.js',
+    instructions: [
+      '// Add to <Head> section of page',
+      '',
+      '<script async src="https://unpkg.com/thesemetrics@latest"></script>',
+    ].join('\n'),
+  },
+  {
+    value: 'vuepress',
+    title: 'VuePress',
+    instructions: [
+      '// Add to vuepress.config.js',
+      '',
+      'module.exports = {',
+      '  head: [',
+      '    ["script", {',
+      '      src: "https://unpkg.com/thesemetrics@latest",',
+      '      async: "",',
+      '    }],',
+      '  ],',
+      '}',
+    ].join('\n'),
+  },
+  {
+    value: 'gatsby',
+    title: 'Gatsby',
+    instructions: [
+      '// Add to src/html.js',
+      '',
+      '<script async src="https://unpkg.com/thesemetrics@latest"></script>',
+    ].join('\n'),
+  },
+];
