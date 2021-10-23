@@ -17,7 +17,7 @@ export default defineComponent({
       </h1>
 
       <p class="my-4 text-5xl leading-tight font-bold font-display">
-        Discover key insights <span class="font-normal italic">without comprosing you customers' data</span>
+        Discover key insights <span class="font-normal italic">without comprosing your customers' data</span>
       </p>
 
       <!-- <section class="max-w-2xl mx-auto text-center">
