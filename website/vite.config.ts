@@ -17,7 +17,7 @@ if (COMMIT_REF == null || COMMIT_REF === '') {
 function getVersion() {
   const today = new Date()
 
-  return `${today.getFullYear()}.${
+  return `v${today.getFullYear()}.${
     today.getMonth() + 1
   }.${today.getDate()}-${COMMIT_REF}`
 }
