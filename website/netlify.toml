@@ -1,5 +1,4 @@
 [build]
-  base = ".."
   publish = "website/dist"
   command = "npm i -g pnpm && pnpm install && pnpm run build --mode production"
 
