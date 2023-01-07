@@ -1,4 +1,4 @@
 # TheseMetrics
 
 - Website — https://thesemetrics.org
-- Status updates — https://thesemetrics.statuspage.io
+- Status updates — https://status.thesemetrics.org
