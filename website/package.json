@@ -6,7 +6,7 @@
     "preview": "vite preview --open --port 2020"
   },
   "dependencies": {
-    "@sentry/browser": "6.13.3",
+    "@sentry/browser": "7.119.1",
     "@sentry/integrations": "6.13.3",
     "@vueuse/head": "0.6.0",
     "vue": "3.2.20",
